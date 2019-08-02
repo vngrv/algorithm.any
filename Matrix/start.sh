@@ -1,26 +1,34 @@
 echo ">> Matrix"
 echo "============================="
 echo "Node JS"
-node matrix.js
+time node matrix.js
 
 echo "============================="
 echo "Python"
-python matrix.py
+time python matrix.py
 
 echo "============================="
 echo "Ruby"
-ruby matrix.rb
+time ruby matrix.rb
 
 echo "============================="
 echo "GOlang"
-go run matrix.go
+time go run matrix.go
+go build matrix.go 
+
+echo "Binary"
+time ./matrix
 
 echo "============================="
 echo "С++"
-g++ matrix.cpp
-./a.out
+time g++ matrix.cpp
+
+echo "Binary"
+time ./a.out
 
 echo "============================="
 echo "C"
-gcc -o ./a ./matrix.c
-./a
+time gcc -o ./a ./matrix.c
+
+echo "Binary"
+time ./a
