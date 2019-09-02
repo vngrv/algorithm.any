@@ -30,7 +30,4 @@ list.insertAtBeginnig('a')
 list.insertAtBeginnig('b')
 list.insertAtBeginnig('c')
 list.insertAtBeginnig('d')
-p list
-
-
-
+p list.class.class.class

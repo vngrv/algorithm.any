@@ -22,7 +22,7 @@ class LinkedList {
       this.head = newNode;
       return this.head;
     }
-    
+
     let tail = this.head;
     while (tail.next !== null) {
       tail = tail.next;
@@ -52,7 +52,7 @@ class LinkedList {
       this.head = new Node(data);
       return;
     }
-    // if new node needs to be inserted at the front of the list i.e. before the head. 
+    // if new node needs to be inserted at the front of the list i.e. before the head.
     if (index === 0) {
       this.head = new Node(data, this.head);
       return;
@@ -119,9 +119,9 @@ class LinkedList {
 }
 
 
-let ll = new LinkedList()
-ll.insertAtBeginning('1');
-ll.insertAtBeginning('2');
-ll.insertAtBeginning('3');
-console.log(ll.getAt(0))
-console.log(ll)
+let linkedList = new LinkedList()
+linkedList.insertAtBeginning('1');
+linkedList.insertAtBeginning('2');
+linkedList.insertAtBeginning('3');
+console.log(linkedList.getAt(0))
+console.log(linkedList)
