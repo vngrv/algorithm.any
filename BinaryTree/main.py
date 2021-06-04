@@ -35,7 +35,15 @@ if __name__ == "__main__":
 
     bTree.insert('test')
     bTree.insert('test1')
+    bTree.insert('test1')
     bTree.insert('test2')
+    bTree.insert('test2')
+    bTree.insert('test3')
+    bTree.insert('test3')
+    bTree.insert('test4')
+    bTree.insert('test4')
+    bTree.insert('test5')
+    bTree.insert('test5')
 
     print(bTree)
     pass
